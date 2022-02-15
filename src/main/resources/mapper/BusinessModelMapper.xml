@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tester.tester.Mapper.BusinessModelMapper">
+    <resultMap id="BaseResultMap" type="com.tester.tester.Entity.BusinessModelEntity">
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="model" jdbcType="VARCHAR" property="model" />
+        <result column="modelid" jdbcType="VARCHAR" property="modelId" />
+        <result column="business" jdbcType="VARCHAR" property="business" />
+        <result column="status" jdbcType="INTEGER" property="status" />
+        <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    </resultMap>
+
+    <select id="getBusinessModelListByBusiness" resultType="com.tester.tester.Entity.BusinessModelEntity">
+        SELECT * from tester_ibanyu_business_model where status=1 and business=#{business}
+    </select>
+
+    <select id="getBusinessModelList" resultType="com.tester.tester.Entity.BusinessModelEntity">
+        SELECT * from tester_ibanyu_business_model where status=1
+    </select>
+
+</mapper>

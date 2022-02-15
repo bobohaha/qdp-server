@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tester.tester.Mapper.TesterMapper">
+    <resultMap id="BaseResultMap" type="com.tester.tester.Entity.TesterEntity">
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="business" jdbcType="INTEGER" property="business" />
+        <result column="week" jdbcType="INTEGER" property="week" />
+        <result column="requireName" jdbcType="VARCHAR" property="requireName" />
+        <result column="allBugNum" jdbcType="INTEGER" property="allBugNum" />
+        <result column="majorBugNum" jdbcType="INTEGER" property="majorBugNum" />
+        <result column="generalBugNum" jdbcType="INTEGER" property="generalBugNum" />
+        <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    </resultMap>
+
+    <select id="getQualityTableInfo1" resultType="java.lang.String">
+        SELECT (SELECT GROUP_CONCAT(COLUMN_NAME SEPARATOR ",") FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'tester' AND TABLE_NAME = 'tester_quality_statistics') as 'info'
+    </select>
+
+    <select id="getQualityTableInfo" resultType="java.lang.String">
+        select (select group_concat(column_name order by ordinal_position asc  separator ",") from INFORMATION_SCHEMA.COLUMNS where TABLE_SCHEMA = 'tester' AND TABLE_NAME = 'tester_quality_statistics') as 'info'
+    </select>
+
+</mapper>

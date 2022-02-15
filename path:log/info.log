@@ -1,0 +1,67 @@
+2021/05/07-00:45 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m57s460ms).
+2021/05/07-01:12 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m2s554ms).
+2021/05/07-03:13 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h5s307ms).
+2021/05/07-05:14 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s872ms).
+2021/05/07-05:15 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s732ms), soft-evicting connections from pool.
+2021/05/07-07:15 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h5s201ms).
+2021/05/07-09:16 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s712ms).
+2021/05/07-10:15 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m20s770ms).
+2021/05/07-18:55 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s461ms).
+2021/05/07-21:44 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2021/05/07-21:44 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+2021/05/07-21:44 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+2021/05/07-21:44 [main] INFO  com.tester.tester.TesterApplication- Starting TesterApplication on localhost with PID 33416 (/Users/bober/work/workspace/tester_server/target/classes started by bober in /Users/bober/work/workspace/tester_server)
+2021/05/07-21:44 [main] INFO  com.tester.tester.TesterApplication- The following profiles are active: dev
+2021/05/07-21:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2021/05/07-21:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2021/05/07-21:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021/05/07-21:44 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'redisConfig' of type [com.tester.tester.Config.RedisConfig$$EnhancerBySpringCGLIB$$a46a9abe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021/05/07-21:44 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021/05/07-21:44 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8089 (http)
+2021/05/07-21:44 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2021/05/07-21:44 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021/05/07-21:44 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2021/05/07-21:44 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1013 ms
+2021/05/07-21:44 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2021/05/07-21:44 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8089 (http) with context path ''
+2021/05/07-21:44 [main] INFO  com.tester.tester.TesterApplication- Started TesterApplication in 2.292 seconds (JVM running for 2.732)
+2021/05/07-21:45 [http-nio-8089-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021/05/07-21:45 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2021/05/07-21:45 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2021/05/07-21:45 [http-nio-8089-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2021/05/07-21:45 [http-nio-8089-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.cj.jdbc.NonRegisteringDriver was not found, trying direct instantiation.
+2021/05/07-21:45 [http-nio-8089-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2021/05/07-21:45 [http-nio-8089-exec-4] INFO  com.tester.tester.Util.OkHttpUtil- Response{protocol=http/1.1, code=200, message=OK, url=https://test.ipalfish.com/klian/account/login}
+2021/05/07-21:45 [http-nio-8089-exec-4] INFO  com.tester.tester.Util.OkHttpUtil- {"ret":1,"data":{"area":"86","loginident":"","member_info":{"id":21269416,"name":"黄sheng","avatar":"https://qnyb00.cdn.ipalfish.com/0/img/5d/7e/2de591b0d91e868abe519174c0bf","gender":1,"sign":"","regtype":2,"cate":1,"birthday":1388534400,"origavatar":"https://qnyb00.cdn.ipalfish.com/0/img/29/cf/ed682631524a49808e57bae949a8","audiobrief":"","audiolength":0,"ct":1550760443,"rt":1551074955,"country":"","govold":0,"rmk":"","gov":0,"title":"","source":4,"juniortitle":"","enname":"","iseligible":false,"state":0,"fullname":{"firstname":"","familyname":"","middlename":"","status":0},"puid":"185760831935"},"mid":21269416,"phone":"72192921234","token":"CKiXkgoQx9HPhAYYASIIbks4a0FmUk8=.3f1f9c8a4a92d845"}}
+2021/05/07-21:59 [http-nio-8089-exec-7] INFO  org.apache.coyote.http11.Http11Processor- Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:532)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:292)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021/05/07-22:03 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2021/05/07-22:03 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+2021/05/07-22:03 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+2021/05/07-22:03 [main] INFO  com.tester.tester.TesterApplication- Starting TesterApplication on localhost with PID 35207 (/Users/bober/work/workspace/tester_server/target/classes started by bober in /Users/bober/work/workspace/tester_server)
+2021/05/07-22:03 [main] INFO  com.tester.tester.TesterApplication- The following profiles are active: prod
+2021/05/07-22:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2021/05/07-22:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2021/05/07-22:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021/05/07-22:03 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'redisConfig' of type [com.tester.tester.Config.RedisConfig$$EnhancerBySpringCGLIB$$e8705fc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021/05/07-22:03 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021/05/07-22:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8089 (http)
+2021/05/07-22:03 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2021/05/07-22:03 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021/05/07-22:03 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2021/05/07-22:03 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1005 ms
+2021/05/07-22:03 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2021/05/07-22:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8089 (http) with context path ''
+2021/05/07-22:03 [main] INFO  com.tester.tester.TesterApplication- Started TesterApplication in 2.241 seconds (JVM running for 2.649)
+2021/05/07-22:03 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'

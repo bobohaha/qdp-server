@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tester.tester.Mapper.ReportMapper">
+    <resultMap id="BaseResultMap" type="com.tester.tester.Entity.ReportEntity">
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="type" jdbcType="INTEGER" property="type" />
+        <result column="site" jdbcType="VARCHAR" property="site" />
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="createtime" jdbcType="VARCHAR" property="createtime" />
+        <result column="updatetime" jdbcType="VARCHAR" property="updatetime" />
+    </resultMap>
+
+    <select id="getReportList" resultType="com.tester.tester.Entity.ReportEntity">
+        SELECT * from tester_quality_report where type = 0 ORDER BY createtime DESC
+    </select>
+
+</mapper>
